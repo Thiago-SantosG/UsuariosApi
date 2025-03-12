@@ -12,6 +12,6 @@ public class CreateUsuarioDto
     [DataType(DataType.Password)]
     public string Password { get; set; }
     [Required]
-    [Compare("Passwod")]
+    [Compare("Password")]
     public string RePassword { get; set; }
 }
