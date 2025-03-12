@@ -28,6 +28,8 @@ builder.Services.AddAutoMapper
 
 builder.Services.AddScoped<UsuarioService>();
 
+builder.Services.AddScoped<TokenService>();
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
